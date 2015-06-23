@@ -2131,3 +2131,14 @@ ul.accessCode li {
 ul.accessCode li:first-child {
 	margin-right: 40px;
 }
+
+article a > img.port {
+	width: 372px;
+	height: 372px;
+	margin: 0 auto;
+	margin-top: 7px;
+}
+
+div.row > div {
+	height: 100%;
+}
