@@ -1,5 +1,2 @@
 TODO:
-
-- put resume in contact, and link to linkedin
 - thumbnail for resume icon at bottom
-- google analytics
