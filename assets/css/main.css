@@ -2140,7 +2140,7 @@ article a > img.port {
 }
 
 div#project {
-	height: 580px;
+	height: 473px;
 }
 
 div#project > article.box {
@@ -2165,12 +2165,12 @@ div.bottom {
 ul.chess {
 	text-align: center;
 }
-
+/*
 #hanoi {
 	position: absolute;
 	top: 80px;
 	left: 70px;
-}
+}*/
 
 ul.chess > li:first-child{
 	float: none;
