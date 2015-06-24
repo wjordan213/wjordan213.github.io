@@ -1,17 +1,5 @@
 TODO:
-1) thumbnail for resume icon at bottom
-2) github links and screenshots
 
--give each portfolio item same height.
-order:
-  1)betternote
-  2)snake
-  3)chess
-  4)tic tac toe
-  5)towers hanoi
-
+- thumbnail for resume icon at bottom
 -skills sprite
-
 -put resume in contact, and link to linkedin/github/email
-
--make portfolio images background images
