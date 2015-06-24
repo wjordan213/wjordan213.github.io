@@ -13,3 +13,5 @@ order:
 -skills sprite
 
 -put resume in contact, and link to linkedin/github/email
+
+-make portfolio images background images
