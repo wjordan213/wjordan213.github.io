@@ -2105,10 +2105,15 @@
 
 	}
 
+	article#work {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+
 	Article#work p {
 		text-align: left;
-		margin-left: 100px;
-		margin-right: 100px;
+		/*margin-left: 200px;*/
+		/*margin-right: 200px;*/
 	}
 
 ul.accessCode {

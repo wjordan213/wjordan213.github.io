@@ -1,6 +1,5 @@
 TODO:
 
-- skills sprite
-- thumbnail for resume icon at bottom
 - put resume in contact, and link to linkedin/github/email
+- thumbnail for resume icon at bottom
 - google analytics
