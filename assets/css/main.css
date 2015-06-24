@@ -2134,11 +2134,45 @@ ul.accessCode li:first-child {
 
 article a > img.port {
 	width: 372px;
-	height: 372px;
+	/*height: 372px;*/
 	margin: 0 auto;
 	margin-top: 7px;
 }
 
-div.row > div {
+div#project {
+	height: 580px;
+}
+
+div#project > article.box {
 	height: 100%;
+	position: relative;
+}
+
+article.box > a > img {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+div.bottom {
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+ul.chess {
+	text-align: center;
+}
+
+#hanoi {
+	position: absolute;
+	top: 80px;
+	left: 70px;
+}
+
+ul.chess > li:first-child{
+	float: none;
+	margin: 0 auto;
 }
