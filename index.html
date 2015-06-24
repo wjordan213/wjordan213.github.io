@@ -216,7 +216,13 @@
 						<li><a href="https://www.linkedin.com/in/harrisjordan1" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						<li><a href="https://github.com/wjordan213" class="icon fa-github"><span class="label">Github</span></a></li>
 						<li><a href="mailto:wjordan213@gmail.com" class="icon fa-envelope-square"></a></li>
-						<li><a href="pdfs/my_resume.pdf" class="icon fa-file-pdf-o"></a></li>
+						<li>
+							<div class="resume hidden" id="triangle">
+							</div>
+							<div id="hiddenBox" class="resume hidden">
+								Resume
+							</div>
+							<a id="resume" href="pdfs/my_resume.pdf" class="resume icon fa-file-pdf-o"></a></li>
 					</ul>
 					<hr />
 				</div>
@@ -236,6 +242,12 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script type="text/javascript">
+				$('a#resume').on("mouseenter", function() {
+					$('div.resume').removeClass('hidden');
+				}).on("mouseleave", function() { $('div.resume').addClass('hidden') });
+
+			</script>
 			<script>
   			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -245,6 +257,6 @@
   			ga('create', 'UA-64479357-1', 'auto');
   		ga('send', 'pageview');
 
-</script>
+			</script>
 	</body>
 </html>

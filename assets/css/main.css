@@ -2181,3 +2181,47 @@ ul.chess > li:first-child{
 	float: none;
 	margin: 0 auto;
 }
+
+a#resume {
+	position: relative;
+}
+
+div#hiddenBox {
+	display: block;
+	position: absolute;
+	bottom: -50px;
+	left: -25px;
+	padding: 5px;
+	width: 100px;
+	background: #aaa;
+	color: black;
+	font-size: 20px;
+	border-radius: 7px;
+	/*font-weight: bold;*/
+}
+
+div#triangle {
+	display: block;
+	width: 0;
+	height: 0;
+	padding: 0;
+	background: transparent;
+	border-bottom: 10px solid #ccc;
+	border-top: none;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	position: absolute;
+	bottom: -13px;
+	left: 16px;
+}
+
+div#triangle.hidden {
+	display: none;
+}
+
+div#hiddenBox.hidden {
+	display: none;
+}
+div.resume.hidden {
+	display: none;
+}
